@@ -1,0 +1,41 @@
+body{
+	overflow-x: hidden;
+	background-color: green;
+}
+div{
+	display: grid;
+	grid-template-areas: 
+	'ball ball'
+	'ball_2 ball_2'
+
+
+}
+.ball{
+	transition-duration: 3s;
+	margin-top: 30em;
+	position: relative;
+	z-index: 100;
+	width: 100px;
+	height: auto;
+}
+.ball:hover{
+	margin-top: 6em;
+	margin-left: 20em;
+}
+.ball_2{
+	transition-duration: 1s;
+	margin-left: 16em;
+	position: absolute;
+}
+.ball_2:hover{
+	opacity: 0.01;
+}
+.man{
+	margin-left: -20em;
+	position: relative;
+	z-index: 10;
+	transition-duration: 1s;
+}
+.man:hover{
+	opacity: 0.01;
+}
