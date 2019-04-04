@@ -31,14 +31,10 @@ div{
 .ball_2:hover{
 	opacity: 0.01;
 }
-.man{
+#man{
 	margin-left: -20em;
 	position: relative;
 	z-index: 10;
 	transition-duration: 1s;
-	width: 50%
-	transform: rotate(180deg);
-}
-.man:hover{
-	opacity: 0.01;
+	transform: scaleX(-1);
 }
